@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(208, 162, 250);
+}
+.container { 
+    background-color: rgb(175, 113, 113);
+    border: 2px solid blueviolet;
+    padding: 20px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container input{
+    margin-bottom: 10px;
+}
+#button {
+    color: rgb(9, 8, 10);
+    background-color: rgb(98, 11, 197);
+    border: none;
+    padding: 5px 15px;
+}
+#button:hover{
+    background-color: rgb(136, 88, 88);
+    color: black;
+}
+.answer-box{
+    background-color: rgb(175, 113, 113);
+    border: 2px rgb(7, 6, 8);
+    padding: 0 20px;
+    width: 30%;
+    margin: 0 auto;
+
+}
